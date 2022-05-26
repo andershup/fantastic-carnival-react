@@ -1,0 +1,26 @@
+[
+{
+    "id": "1",
+    "name": "glider1",
+    "type": "faster",
+    "category" : "beginner"
+},
+{
+    "id": "2",
+    "name": "glider2",
+    "type": "faster",
+    "category" : "intermediate"
+},
+{
+    "id": "3",
+    "name": "glider3",
+    "type": "slower",
+    "category" : "beginner"
+},
+{
+    "id": "4",
+    "name": "glider4",
+    "type": "fasterer",
+    "category" : "advanced"
+}
+]
