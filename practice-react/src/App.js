@@ -2,8 +2,7 @@
 import { Routes, Route } from 'react-router-dom'
 import NavigationBar from './routes/navigation-bar/navigation-bar.component'
 import Directory from "./routes/directory/directory.component";
-import SignIn from "./components/sign-in/sign-in.component"
-import SignUp from "/routes/sign-up/sign-up.component"
+import SignInSignUp from './routes/sign-up-sign-in/sign-in-sign-up.component';
 
 
 const Shop = () => {
@@ -20,8 +19,7 @@ const App = () => {
           <Routes>
             <Route path='/' element={<NavigationBar/> }>
               <Route index element={<Directory />} />\
-              <Route path='sign-in' element={<SignIn/>} />
-              <Route path='sign-up' element={<SignUp/>} />
+              <Route path='sign-in-sign-up' element={<SignInSignUp/>}/>
               <Route path='shop' element={<Shop/>} />
             </Route>
           </Routes>
