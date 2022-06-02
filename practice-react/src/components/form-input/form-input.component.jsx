@@ -4,8 +4,8 @@ const FormInput = ({label, ...otherProps}) => {
     return (
     <div className="group">
         {/* <input className="form-input" placeholder={label} type="text"/> */}
-        <input className="form-input" {...otherProps}  type="text"/>
-        <label className="this-is-a-label">{label}</label>
+        <input className="form-input" {...otherProps} />
+        {label}
     </div>
     )
 }
