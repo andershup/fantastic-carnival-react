@@ -1,10 +1,10 @@
-import ProductComponent from "./product.component"
-import productList from '../products.json'
+import ProductComponent from '../product/product.component
+import SHOP_DATA from '../../products.js' 
 
 const Products = () => {
     return (
     <>
-    {productList.map((product) =>(
+    {SHOP_DATA.map((product) =>(
         <ProductComponent key={product.id} product={product}/>
     ))}
 

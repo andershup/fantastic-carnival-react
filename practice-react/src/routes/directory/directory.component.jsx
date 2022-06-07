@@ -1,4 +1,4 @@
-import Products from '../../components/products.component'
+import Products from '../../components/products/products.component'
 
 const Directory = () => {
     return (

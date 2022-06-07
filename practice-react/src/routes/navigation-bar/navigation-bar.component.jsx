@@ -8,9 +8,9 @@ const NavigationBar = () => {
         <div className="navigation">
         <Link className="logo" to="/">
         <Logo className="actual-logo"/>
-            </Link>
-        test text text text 
+            </Link> 
         <Link className='nav-link' to="/sign-in">Sign In</Link>
+        <Link className='shop' to="/shop">Shop</Link>
         </div>
         <Outlet/>
         </>

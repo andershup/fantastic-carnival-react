@@ -3,11 +3,10 @@ import { Routes, Route } from 'react-router-dom'
 import NavigationBar from './routes/navigation-bar/navigation-bar.component'
 import Directory from "./routes/directory/directory.component";
 import SignInSignUp from './routes/sign-up-sign-in/sign-in-sign-up.component';
+import Shop from './routes/shop/shop.component';
 
 
-const Shop = () => {
-  return <h1>I am the shop page</h1>
-}
+
 const App = () => {
 
   return (
@@ -19,8 +18,8 @@ const App = () => {
           <Routes>
             <Route path='/' element={<NavigationBar/> }>
               <Route index element={<Directory />} />\
-              <Route path='sign-in-sign-up' element={<SignInSignUp/>}/>
-              <Route path='shop' element={<Shop/>} />
+              <Route path='sign-in' element={<SignInSignUp/>}/>
+              <Route path='shop/*' element={<Shop/>} />
             </Route>
           </Routes>
 
