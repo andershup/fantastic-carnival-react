@@ -1,6 +1,6 @@
 import { Routes, Route } from 'react-router-dom'
 import { CategoryPreview } from '../../components/category-preview/category-preview.component'
-import { Category } from '../../components/category/category.component'
+import Category from '../../components/category/category.component'
 const Shop = () => {
     return (
         <Routes>

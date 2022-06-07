@@ -1,9 +1,11 @@
+import ProductCard from '../product-card/product-card.component'
 const ProductComponent = ({product}) => {
-    const {id, name} = product
+    const {id} = product
+    console.log(product)
     return (
         <div className="eh">
-            <h1>{id}</h1>
-            <p>{name}</p>
+            <h1>ProductComponent</h1>
+            <ProductCard key={id} product={product}/>
         </div>
     )
 }

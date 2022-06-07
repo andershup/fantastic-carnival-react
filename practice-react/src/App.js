@@ -17,7 +17,7 @@ const App = () => {
         <div className='category-body-container'>
           <Routes>
             <Route path='/' element={<NavigationBar/> }>
-              <Route index element={<Directory />} />\
+              <Route index element={<Directory />} />
               <Route path='sign-in' element={<SignInSignUp/>}/>
               <Route path='shop/*' element={<Shop/>} />
             </Route>

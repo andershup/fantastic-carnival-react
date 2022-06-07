@@ -1,6 +1,7 @@
 const SHOP_DATA = [
   {
     title: 'Hats',
+    key: 1,
     items: [
       {
         id: 1,
@@ -60,6 +61,7 @@ const SHOP_DATA = [
   },
   {
     title: 'Sneakers',
+    key: 2,
     items: [
       {
         id: 10,
@@ -113,6 +115,7 @@ const SHOP_DATA = [
   },
   {
     title: 'Jackets',
+    key: 3,
     items: [
       {
         id: 18,
@@ -148,6 +151,7 @@ const SHOP_DATA = [
   },
   {
     title: 'Womens',
+    key: 4,
     items: [
       {
         id: 23,
@@ -195,6 +199,7 @@ const SHOP_DATA = [
   },
   {
     title: 'Mens',
+    key: 5,
     items: [
       {
         id: 30,
@@ -235,3 +240,5 @@ const SHOP_DATA = [
     ],
   },
 ];
+
+export default SHOP_DATA

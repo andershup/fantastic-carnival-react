@@ -1,13 +1,14 @@
-import ProductComponent from '../product/product.component
-import SHOP_DATA from '../../products.js' 
+import ProductComponent from '../product/product.component'
+ 
 
-const Products = () => {
+const Products = ({products}) => {
+    // console.log(products)
     return (
     <>
-    {SHOP_DATA.map((product) =>(
+    {products.map((product) =>(
         <ProductComponent key={product.id} product={product}/>
     ))}
-
+    <div>Products</div>
     </>
     )
 }

@@ -1,9 +1,12 @@
 import Products from '../../components/products/products.component'
-
+import SHOP_DATA from '../../products.js'
 const Directory = () => {
     return (
         <>
-        <Products/>
+        {SHOP_DATA.map((product) =>(
+              <Products key={product.key} products={product.items}/>
+        ))}
+        <div>Directory Components</div>
         </>
     )
 }
