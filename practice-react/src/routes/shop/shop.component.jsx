@@ -1,11 +1,11 @@
 import { Routes, Route } from 'react-router-dom'
-import { CategoryPreview } from '../../components/category-preview/category-preview.component'
-import Category from '../../components/category/category.component'
+import  ManufacturerPreview from '../../components/manufacturers-preview/manufacturers-preview.component'
+import Manufacturer from '../../components/manufacturer/manufacturer.component'
 const Shop = () => {
     return (
         <Routes>
-            <Route index element={<CategoryPreview />} />
-            <Route path=':category' component={<Category />} />
+            <Route index element={<ManufacturerPreview />} />
+            <Route path=':manufacturer' component={<Manufacturer />} />
         </Routes>
     )
 }
