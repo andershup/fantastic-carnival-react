@@ -5,7 +5,7 @@ const Shop = () => {
     return (
         <Routes>
             <Route index element={<ManufacturerPreview />} />
-            <Route path=':manufacturer' component={<Manufacturer />} />
+            <Route path=':manufacturer-preview' component={<Manufacturer />} />
         </Routes>
     )
 }

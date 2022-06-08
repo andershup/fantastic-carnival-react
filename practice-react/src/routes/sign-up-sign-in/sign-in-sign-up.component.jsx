@@ -3,7 +3,7 @@ import FormInput from '../../components/form-input/form-input.component'
 import {signInWithGooglePopup} from '../../utils/firebase.utils'
 
 const SignInSignUp = () => {
-    console.log(signInWithGooglePopup)
+  
     const signInWithGoogle = async () => {
         await signInWithGooglePopup()  
     }
